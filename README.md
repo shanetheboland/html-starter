@@ -1,27 +1,31 @@
-# MNML
+# HTML Starter Project
 
 ## What is this?
 
-View the project page at [http://mn-ml.cc](http://mn-ml.cc "MNML - A light-weight responsive html5 boilerplate.")
+View the project page at [http://github.com/shanetheboland/html-starter](http://github.com/shanetheboland/html-starter "HTML Starter - A basic starting point for new HTML projects")
 
-MNML is a starting point for prototyping responsive HTML5 SASS projects.
+HTML Starter is a starting point for prototyping HTML5 SASS projects.
 Uses gulp to create a dev environment for rapidly prototyping sites. 
 
 ## Features
 
 * sass compilation
+* sass folder structure
 * css minification
 * css linting
 * autoprefixer (automatically adds appropriate vendor prefixes) 
 * browser reload on filesave
 * local server for serving a static site
+* google fonts
+* grid system
+* favicons
 
 ## Getting started
 
 * Create a new repo for your project on Github
 * In terminal run
 ```bash
-    git clone git@github.com:mrmrs/mnml.git yourNewRepoName
+    git clone git@github.com:shanetheboland/html-starter.git yourNewRepoName
     cd yourNewRepoName
     rm -rf .git
     git init
@@ -56,28 +60,9 @@ every time you save a file.
 git push origin master
 ```
 
-## Directory structure
-```
-    mnml/
-        ├── README.md
-        ├── gulpfile.js
-        ├── package.json
-        ├── index.html                
-        ├── css
-        │   └── mnml.css              (10kb / 3.04 gzipped)
-        │   └── mnml.min.css          (2.27 kb minified - 989B gzipped)
-        └── sass                      CSS source files
-            ├── _normalize.scss
-            ├── _variables.scss
-            ├── _base.scss
-            ├── _type.scss
-            ├── _styles.scss
-            └── mnml.scss
-```
-
 # Author
 
-[MRMRS](http://mrmrs.io "Adam Morse - Designer Developer")
+[Shane Boland](http://shanetheboland.com "Shane Boland - Frontend Designer")
 
 # License
 
